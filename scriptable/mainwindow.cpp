@@ -84,12 +84,6 @@ MainWindow::MainWindow()
         QDir directory(m_inputDir.absoluteFilePath());
         QStringList plugins = directory.entryList(QStringList() << "*.py", QDir::Files);
         for(QString &filename: plugins) {
-            // QString filePath = directory.filePath(filename);
-            // QFile f(filePath);
-            // if (!f.open(QFile::ReadOnly | QFile::Text)) break;
-            // QTextStream in(&f);
-            // for (auto line: in.readAll().split("\n"))
-            //     l << line;
             QListWidgetItem *item = new QListWidgetItem(filename);
             item->setSizeHint(QSize(item->sizeHint().width(), 30));
             m_pluginMenu->addItem(item);

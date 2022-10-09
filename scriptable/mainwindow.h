@@ -18,11 +18,9 @@ public:
     MainWindow();
 
     void testFunction1();
-    void openFile();
     QToolBar *getToolBar();
     QPlainTextEdit *getTextEdit();
     QListWidget *getPluginMenu();
-    void setTextEdit(QPlainTextEdit*);
 
 private Q_SLOTS:
     void slotRunScript();
@@ -35,7 +33,7 @@ private:
     QPlainTextEdit *m_scriptEdit;
     QToolBar *m_toolBar;
     QListWidget *m_pluginMenu;
-    const QFileInfo m_inputDir = QFileInfo("/home/shyamnath/qt_for_python/pyside-setup/examples/scriptableapplication/plugins");
+    const QFileInfo m_inputDir = QFileInfo("/home/shyamnath/qt_for_python/shyam/presentations/kde_akademy_2022/scriptable/plugins");
 };
 
 #endif // MAINWINDOW_H

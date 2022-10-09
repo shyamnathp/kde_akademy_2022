@@ -1,0 +1,5 @@
+/home/shyamnath/qt_for_python/shyam/presentations/kde_akademy_2022/scriptable/build/CMakeFiles/scriptableapplication.dir
+/home/shyamnath/qt_for_python/shyam/presentations/kde_akademy_2022/scriptable/build/CMakeFiles/edit_cache.dir
+/home/shyamnath/qt_for_python/shyam/presentations/kde_akademy_2022/scriptable/build/CMakeFiles/rebuild_cache.dir
+/home/shyamnath/qt_for_python/shyam/presentations/kde_akademy_2022/scriptable/build/CMakeFiles/scriptableapplication_autogen_timestamp_deps.dir
+/home/shyamnath/qt_for_python/shyam/presentations/kde_akademy_2022/scriptable/build/CMakeFiles/scriptableapplication_autogen.dir

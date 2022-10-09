@@ -1,0 +1,421 @@
+************************************************************************
+Not in type system
+************************************************************************
+
+************************************************************************
+Generation disabled by type system
+ - QActionPrivate* QAction::d_func() matches class "^.*$" and "^d_func$"
+ - QBrush::DataPtr& QBrush::data_ptr() matches class "^.*$" and "^data_ptr$"
+ - QByteArray::DataPointer& QByteArray::data_ptr() matches class "^.*$" and "^data_ptr$"
+ - QDataStream& QDataStream::operator<<(std::nullptr_t) matches class "^.*$" and "std::nullptr_t" matches "^std::nullptr_t&?$"
+ - QDataStream& QDataStream::operator>>(std::nullptr_t&) matches class "^.*$" and "std::nullptr_t&" matches "^std::nullptr_t&?$"
+ - QDateTime QDateTime::addDuration(std::chrono::milliseconds) matches class "^.*$" and "std::chrono::milliseconds" matches "^std\:\:chrono\:\:milliseconds$"
+ - QDateTime QDateTime::operator+(std::chrono::milliseconds,const QDateTime&) matches class "^.*$" and "std::chrono::milliseconds" matches "^std\:\:chrono\:\:milliseconds$"
+ - QDateTime& QDateTime::operator+=(std::chrono::milliseconds) matches class "^.*$" and "std::chrono::milliseconds" matches "^std\:\:chrono\:\:milliseconds$"
+ - QDateTime& QDateTime::operator-=(std::chrono::milliseconds) matches class "^.*$" and "std::chrono::milliseconds" matches "^std\:\:chrono\:\:milliseconds$"
+ - QFileDevicePrivate* QFileDevice::d_func() matches class "^.*$" and "^d_func$"
+ - QFileInfoPrivate* QFileInfo::d_func() matches class "^.*$" and "^d_func$"
+ - QFilePrivate* QFile::d_func() matches class "^.*$" and "^d_func$"
+ - QIODevicePrivate* QIODevice::d_func() matches class "^.*$" and "^d_func$"
+ - QIcon::DataPtr& QIcon::data_ptr() matches class "^.*$" and "^data_ptr$"
+ - QImage::DataPtr& QImage::data_ptr() matches class "^.*$" and "^data_ptr$"
+ - QKeySequence::DataPtr& QKeySequence::data_ptr() matches class "^.*$" and "^data_ptr$"
+ - QList<T>& QList::operator=(std::initializer_list<T>) matches class "^.*$" and "std::initializer_list<T>" matches "^std::initializer_list<.*$"
+ - QMainWindowPrivate* QMainWindow::d_func() matches class "^.*$" and "^d_func$"
+ - QMetaObject::Connection QObject::connectImpl(const QObject*,void**,const QObject*,void**,QtPrivate::QSlotObjectBase*,Qt::ConnectionType,const int*,const QMetaObject*) matches class "^.*$" and "QtPrivate::QSlotObjectBase*" matches "^QtPrivate\:\:QSlotObjectBase\*$"
+ - QMultiHash::iterator QMultiHash::detach(QMultiHash::const_iterator) matches class "^(?!QSharedMemory).*$" and "^detach$"
+ - QObjectPrivate* QObject::d_func() matches class "^.*$" and "^d_func$"
+ - QPixmap::DataPtr& QPixmap::data_ptr() matches class "^.*$" and "^data_ptr$"
+ - QPoint QPolygon::point(int) matches class "^QPolygon$" and "^point$"
+ - QString MainWindow::tr(const char*,const char*,int) matches class "^.*$" and "^tr$"
+ - QString QAction::tr(const char*,const char*,int) matches class "^.*$" and "^tr$"
+ - QString QFile::tr(const char*,const char*,int) matches class "^.*$" and "^tr$"
+ - QString QFileDevice::tr(const char*,const char*,int) matches class "^.*$" and "^tr$"
+ - QString QIODevice::tr(const char*,const char*,int) matches class "^.*$" and "^tr$"
+ - QString QMainWindow::tr(const char*,const char*,int) matches class "^.*$" and "^tr$"
+ - QString QMetaObject::tr(const char*,const char*,int) matches class "^.*$" and "^tr$"
+ - QString QObject::tr(const char*,const char*,int) matches class "^.*$" and "^tr$"
+ - QString QTabWidget::tr(const char*,const char*,int) matches class "^.*$" and "^tr$"
+ - QString QWidget::tr(const char*,const char*,int) matches class "^.*$" and "^tr$"
+ - QTabWidgetPrivate* QTabWidget::d_func() matches class "^.*$" and "^d_func$"
+ - QTextStreamPrivate* QTextStream::d_func() matches class "^.*$" and "^d_func$"
+ - QWidgetPrivate* QWidget::d_func() matches class "^.*$" and "^d_func$"
+ - bool QBrush::isDetached() matches class "^.*$" and "^isDetached$"
+ - bool QByteArray::isDetached() matches class "^.*$" and "^isDetached$"
+ - bool QByteArray::operator!=(std::nullptr_t,const QByteArray&) matches class "^.*$" and "std::nullptr_t" matches "^std::nullptr_t&?$"
+ - bool QByteArray::operator<(std::nullptr_t,const QByteArray&) matches class "^.*$" and "std::nullptr_t" matches "^std::nullptr_t&?$"
+ - bool QByteArray::operator<=(std::nullptr_t,const QByteArray&) matches class "^.*$" and "std::nullptr_t" matches "^std::nullptr_t&?$"
+ - bool QByteArray::operator==(std::nullptr_t,const QByteArray&) matches class "^.*$" and "std::nullptr_t" matches "^std::nullptr_t&?$"
+ - bool QByteArray::operator>(std::nullptr_t,const QByteArray&) matches class "^.*$" and "std::nullptr_t" matches "^std::nullptr_t&?$"
+ - bool QByteArray::operator>=(std::nullptr_t,const QByteArray&) matches class "^.*$" and "std::nullptr_t" matches "^std::nullptr_t&?$"
+ - bool QFile::open(FILE*,QIODeviceBase::OpenMode,QFileDevice::FileHandleFlags) matches class "^.*$" and "FILE*" matches "^FILE\*$"
+ - bool QHash::isDetached() matches class "^.*$" and "^isDetached$"
+ - bool QIcon::isDetached() matches class "^.*$" and "^isDetached$"
+ - bool QImage::isDetached() matches class "^.*$" and "^isDetached$"
+ - bool QKeySequence::isDetached() matches class "^.*$" and "^isDetached$"
+ - bool QList::isDetached() matches class "^.*$" and "^isDetached$"
+ - bool QMap::isDetached() matches class "^.*$" and "^isDetached$"
+ - bool QMetaObject::invokeMethodImpl(QObject*,QtPrivate::QSlotObjectBase*,Qt::ConnectionType,void*) matches class "^.*$" and "QtPrivate::QSlotObjectBase*" matches "^QtPrivate\:\:QSlotObjectBase\*$"
+ - bool QMultiHash::isDetached() matches class "^.*$" and "^isDetached$"
+ - bool QMultiMap::isDetached() matches class "^.*$" and "^isDetached$"
+ - bool QPixmap::isDetached() matches class "^.*$" and "^isDetached$"
+ - bool QSet::isDetached() matches class "^.*$" and "^isDetached$"
+ - const QActionPrivate* QAction::d_func() matches class "^.*$" and "^d_func$"
+ - const QFileDevicePrivate* QFileDevice::d_func() matches class "^.*$" and "^d_func$"
+ - const QFileInfoPrivate* QFileInfo::d_func() matches class "^.*$" and "^d_func$"
+ - const QFilePrivate* QFile::d_func() matches class "^.*$" and "^d_func$"
+ - const QIODevicePrivate* QIODevice::d_func() matches class "^.*$" and "^d_func$"
+ - const QMainWindowPrivate* QMainWindow::d_func() matches class "^.*$" and "^d_func$"
+ - const QObjectPrivate* QObject::d_func() matches class "^.*$" and "^d_func$"
+ - const QTabWidgetPrivate* QTabWidget::d_func() matches class "^.*$" and "^d_func$"
+ - const QTextStreamPrivate* QTextStream::d_func() matches class "^.*$" and "^d_func$"
+ - const QWidgetPrivate* QWidget::d_func() matches class "^.*$" and "^d_func$"
+ - int QMetaObject::metacall(QObject*,QMetaObject::Call,int,void**) matches class "^QMetaObject$" and "^metacall$"
+ - int QMetaObject::static_metacall(QMetaObject::Call,int,void**) matches class "^QMetaObject$" and "^static_metacall$"
+ - int QObject::startTimer(std::chrono::milliseconds,Qt::TimerType) matches class "^.*$" and "std::chrono::milliseconds" matches "^std\:\:chrono\:\:milliseconds$"
+ - void QAction::QAction(QActionPrivate&,QObject*) matches class "^.*$" and "QActionPrivate&" matches "^Q\w+Private( const)?\&$"
+ - void QBrush::detach(Qt::BrushStyle) matches class "^(?!QSharedMemory).*$" and "^detach$"
+ - void QByteArray::QByteArray(qsizetype,Qt::Initialization) matches class "^.*$" and "Qt::Initialization" matches "^Qt\:\:Initialization$"
+ - void QByteArray::detach() matches class "^(?!QSharedMemory).*$" and "^detach$"
+ - void QFile::QFile(QFilePrivate&,QObject*) matches class "^.*$" and "QFilePrivate&" matches "^Q\w+Private( const)?\&$"
+ - void QFileDevice::QFileDevice(QFileDevicePrivate&,QObject*) matches class "^.*$" and "QFileDevicePrivate&" matches "^Q\w+Private( const)?\&$"
+ - void QFileInfo::QFileInfo(QFileInfoPrivate*) matches class "^.*$" and "QFileInfoPrivate*" matches "^Q[^H]\w+Private( const)?\*$"
+ - void QFont::QFont(QFontPrivate*) matches class "^.*$" and "QFontPrivate*" matches "^Q[^H]\w+Private( const)?\*$"
+ - void QFont::detach() matches class "^(?!QSharedMemory).*$" and "^detach$"
+ - void QHash::QHash<Key, T>(std::initializer_list<std::pair<Key, T> >) matches class "^.*$" and "std::initializer_list<std::pair<Key, T> >" matches "^std::initializer_list<.*$"
+ - void QHash::detach() matches class "^(?!QSharedMemory).*$" and "^detach$"
+ - void QIODevice::QIODevice(QIODevicePrivate&,QObject*) matches class "^.*$" and "QIODevicePrivate&" matches "^Q\w+Private( const)?\&$"
+ - void QIcon::detach() matches class "^(?!QSharedMemory).*$" and "^detach$"
+ - void QImage::detach() matches class "^(?!QSharedMemory).*$" and "^detach$"
+ - void QList::QList<T>(std::initializer_list<T>) matches class "^.*$" and "std::initializer_list<T>" matches "^std::initializer_list<.*$"
+ - void QList::detach() matches class "^(?!QSharedMemory).*$" and "^detach$"
+ - void QLocale::QLocale(QLocalePrivate&) matches class "^.*$" and "QLocalePrivate&" matches "^Q\w+Private( const)?\&$"
+ - void QMap::QMap<Key, T>(std::initializer_list<std::pair<Key, T> >) matches class "^.*$" and "std::initializer_list<std::pair<Key, T> >" matches "^std::initializer_list<.*$"
+ - void QMap::detach() matches class "^(?!QSharedMemory).*$" and "^detach$"
+ - void QMetaObject::activate(QObject*,const QMetaObject*,int,void**) matches class "^QMetaObject$" and "^activate$"
+ - void QMetaObject::activate(QObject*,int,int,void**) matches class "^QMetaObject$" and "^activate$"
+ - void QMetaObject::activate(QObject*,int,void**) matches class "^QMetaObject$" and "^activate$"
+ - void QMultiHash::QMultiHash<Key, T>(std::initializer_list<std::pair<Key, T> >) matches class "^.*$" and "std::initializer_list<std::pair<Key, T> >" matches "^std::initializer_list<.*$"
+ - void QMultiHash::detach() matches class "^(?!QSharedMemory).*$" and "^detach$"
+ - void QMultiMap::QMultiMap<Key, T>(std::initializer_list<std::pair<Key, T> >) matches class "^.*$" and "std::initializer_list<std::pair<Key, T> >" matches "^std::initializer_list<.*$"
+ - void QMultiMap::detach() matches class "^(?!QSharedMemory).*$" and "^detach$"
+ - void QObject::QObject(QObjectPrivate&,QObject*) matches class "^.*$" and "QObjectPrivate&" matches "^Q\w+Private( const)?\&$"
+ - void QObject::objectNameChanged(const QString&,QObject::QPrivateSignal) matches class "^.*$" and "QObject::QPrivateSignal" matches "^.*::QPrivateSignal$"
+ - void QPalette::detach() matches class "^(?!QSharedMemory).*$" and "^detach$"
+ - void QPixmap::QPixmap(QPlatformPixmap*) matches class "^Q.*$" and "QPlatformPixmap*" matches "^QPlatform.*$"
+ - void QPixmap::detach() matches class "^(?!QSharedMemory).*$" and "^detach$"
+ - void QPolygon::point(int,int*,int*) matches class "^QPolygon$" and "^point$"
+ - void QPolygon::putPoints(int,int,const QPolygon&,int) matches class "^QPolygon$" and "^putPoints$"
+ - void QPolygon::putPoints(int,int,const int*) matches class "^QPolygon$" and "^putPoints$"
+ - void QPolygon::putPoints(int,int,int,int) matches class "^QPolygon$" and "^putPoints$"
+ - void QPolygon::setPoint(int,const QPoint&) matches class "^QPolygon$" and "^setPoint$"
+ - void QPolygon::setPoint(int,int,int) matches class "^QPolygon$" and "^setPoint$"
+ - void QPolygon::setPoints(int,const int*) matches class "^QPolygon$" and "^setPoints$"
+ - void QPolygon::setPoints(int,int,int) matches class "^QPolygon$" and "^setPoints$"
+ - void QRegion::cleanUp(QRegion::QRegionData*) matches class "^QRegion$" and "^cleanUp$"
+ - void QRegion::detach() matches class "^(?!QSharedMemory).*$" and "^detach$"
+ - void QSet::QSet<T>(std::initializer_list<T>) matches class "^.*$" and "std::initializer_list<T>" matches "^std::initializer_list<.*$"
+ - void QSet::detach() matches class "^(?!QSharedMemory).*$" and "^detach$"
+ - void QTextStream::QTextStream(FILE*,QIODeviceBase::OpenMode) matches class "^.*$" and "FILE*" matches "^FILE\*$"
+ - void QTextStreamManipulator::QTextStreamManipulator(QTSMFC,QChar) matches class "^.*$" and "QTSMFC" matches "^QTSMFC$"
+ - void QTextStreamManipulator::QTextStreamManipulator(QTSMFI,int) matches class "^.*$" and "QTSMFI" matches "^QTSMFI$"
+ - void QTransform::QTransform(Qt::Initialization) matches class "^.*$" and "Qt::Initialization" matches "^Qt\:\:Initialization$"
+ - void QWidget::QWidget(QWidgetPrivate&,QWidget*,Qt::WindowFlags) matches class "^.*$" and "QWidgetPrivate&" matches "^Q\w+Private( const)?\&$"
+************************************************************************
+
+************************************************************************
+Type redefined to not be a class
+************************************************************************
+
+************************************************************************
+Unmatched argument type
+ - QDataStream& QDataStream::operator<<(char16_t): unmatched type 'char16_t' in parameter #1 "c": Unable to translate type "char16_t": Cannot find type entry for "char16_t".
+ - QDataStream& QDataStream::operator<<(char32_t): unmatched type 'char32_t' in parameter #1 "c": Unable to translate type "char32_t": Cannot find type entry for "char32_t".
+ - QDataStream& QDataStream::operator>>(char16_t&): unmatched type 'char16_t&' in parameter #1 "c": Unable to translate type "char16_t&": Cannot find type entry for "char16_t".
+ - QDataStream& QDataStream::operator>>(char32_t&): unmatched type 'char32_t&' in parameter #1 "c": Unable to translate type "char32_t&": Cannot find type entry for "char32_t".
+ - QDateTime QFileInfo::fileTime(QFile::FileTime): unmatched type 'QFile::FileTime' in parameter #1 "time": Unable to translate type "QFile::FileTime": Cannot find type entry for "QFile::FileTime".
+ - QList<T>& QList::fill(QList::parameter_type,qsizetype): unmatched type 'QList::parameter_type' in parameter #1 "t": Unable to translate type "QList::parameter_type": Cannot find type entry for "QList::parameter_type".
+ - QList<T>& QList::operator+=(QList::parameter_type): unmatched type 'QList::parameter_type' in parameter #1 "t": Unable to translate type "QList::parameter_type": Cannot find type entry for "QList::parameter_type".
+ - QList<T>& QList::operator+=(QList::rvalue_ref): unmatched type 'QList::rvalue_ref' in parameter #1 "t": Unable to translate type "QList::rvalue_ref": Cannot find type entry for "QList::rvalue_ref".
+ - QList<T>& QList::operator<<(QList::parameter_type): unmatched type 'QList::parameter_type' in parameter #1 "t": Unable to translate type "QList::parameter_type": Cannot find type entry for "QList::parameter_type".
+ - QList<T>& QList::operator<<(QList::rvalue_ref): unmatched type 'QList::rvalue_ref' in parameter #1 "t": Unable to translate type "QList::rvalue_ref": Cannot find type entry for "QList::rvalue_ref".
+ - QTextStream& QTextStream::operator<<(QLatin1StringView): unmatched type 'QLatin1StringView' in parameter #1 "s": Unable to translate type "QLatin1StringView": Cannot find type entry for "QLatin1String".
+ - QTextStream& QTextStream::operator<<(char16_t): unmatched type 'char16_t' in parameter #1 "ch": Unable to translate type "char16_t": Cannot find type entry for "char16_t".
+ - QTextStream& QTextStream::operator>>(char16_t&): unmatched type 'char16_t&' in parameter #1 "ch": Unable to translate type "char16_t&": Cannot find type entry for "char16_t".
+ - T QList::value(qsizetype,QList::parameter_type): unmatched type 'QList::parameter_type' in parameter #2 "defaultValue": Unable to translate type "QList::parameter_type": Cannot find type entry for "QList::parameter_type".
+ - bool QColor::isValidColor(QLatin1StringView): unmatched type 'QLatin1StringView' in parameter #1: Unable to translate type "QLatin1StringView": Cannot find type entry for "QLatin1String".
+ - bool QFileInfo::permission(QFile::Permissions): unmatched type 'QFile::Permissions' in parameter #1 "permissions": Unable to translate type "QFile::Permissions": Cannot find type entry for "QFile::Permissions".
+ - bool QList::endsWith(QList::parameter_type): unmatched type 'QList::parameter_type' in parameter #1 "t": Unable to translate type "QList::parameter_type": Cannot find type entry for "QList::parameter_type".
+ - bool QList::isValidIterator(QList::const_iterator): unmatched type 'QList::const_iterator' in parameter #1 "i": Unable to translate type "QList::const_iterator": Cannot find type entry for "QList<T>::const_iterator".
+ - bool QList::startsWith(QList::parameter_type): unmatched type 'QList::parameter_type' in parameter #1 "t": Unable to translate type "QList::parameter_type": Cannot find type entry for "QList::parameter_type".
+ - bool QMetaType::debugStream(QDebug&,const void*): unmatched type 'QDebug&' in parameter #1 "dbg": Unable to translate type "QDebug&": Cannot find type entry for "QDebug".
+ - bool QMetaType::debugStream(QDebug&,const void*,int): unmatched type 'QDebug&' in parameter #1 "dbg": Unable to translate type "QDebug&": Cannot find type entry for "QDebug".
+ - bool QMetaType::registerConverterFunction(const QMetaType::ConverterFunction&,QMetaType,QMetaType): unmatched type 'const QMetaType::ConverterFunction&' in parameter #1 "f": Unable to translate type "const QMetaType::ConverterFunction&": Cannot find type entry for "std::function".
+ - bool QMetaType::registerMutableViewFunction(const QMetaType::MutableViewFunction&,QMetaType,QMetaType): unmatched type 'const QMetaType::MutableViewFunction&' in parameter #1 "f": Unable to translate type "const QMetaType::MutableViewFunction&": Cannot find type entry for "std::function".
+ - int QMetaType::type(const ::QByteArray&): unmatched type 'const ::QByteArray&' in parameter #1 "typeName": Unable to translate type "const ::QByteArray&": Cannot find type entry for "::QByteArray".
+ - void QByteArray::QByteArray(QByteArray::DataPointer&&): unmatched type 'QByteArray::DataPointer&&' in parameter #1 "dd": Unable to translate type "QByteArray::DataPointer&&": Cannot find type entry for "QArrayDataPointer".
+ - void QByteArray::QByteArray(const QByteArray::DataPointer&): unmatched type 'const QByteArray::DataPointer&' in parameter #1 "dd": Unable to translate type "const QByteArray::DataPointer&": Cannot find type entry for "QArrayDataPointer".
+ - void QByteArray::reallocData(qsizetype,QArrayData::AllocationOption): unmatched type 'QArrayData::AllocationOption' in parameter #2 "option": Unable to translate type "QArrayData::AllocationOption": Cannot find type entry for "QArrayData::AllocationOption".
+ - void QColor::QColor(QLatin1StringView): unmatched type 'QLatin1StringView' in parameter #1 "name": Unable to translate type "QLatin1StringView": Cannot find type entry for "QLatin1String".
+ - void QColor::setNamedColor(QLatin1StringView): unmatched type 'QLatin1StringView' in parameter #1 "name": Unable to translate type "QLatin1StringView": Cannot find type entry for "QLatin1String".
+ - void QKeyCombination::QKeyCombination(Qt::Modifiers,Qt::Key): unmatched type 'Qt::Modifiers' in parameter #1 "modifiers": Unable to translate type "Qt::Modifiers": Cannot find type entry for "QFlags<Qt::Modifier>".
+ - void QList::QList<T>(QList::DataPointer): unmatched type 'QList::DataPointer' in parameter #1 "dd": Unable to translate type "QList::DataPointer": Cannot find type entry for "QList::DataPointer".
+ - void QList::QList<T>(qsizetype,QList::parameter_type): unmatched type 'QList::parameter_type' in parameter #2 "t": Unable to translate type "QList::parameter_type": Cannot find type entry for "QList::parameter_type".
+ - void QList::append(QList::const_iterator,QList::const_iterator): unmatched type 'QList::const_iterator' in parameter #1 "i1": Unable to translate type "QList::const_iterator": Cannot find type entry for "QList<T>::const_iterator".
+ - void QList::append(QList::parameter_type): unmatched type 'QList::parameter_type' in parameter #1 "t": Unable to translate type "QList::parameter_type": Cannot find type entry for "QList::parameter_type".
+ - void QList::append(QList::rvalue_ref): unmatched type 'QList::rvalue_ref' in parameter #1 "t": Unable to translate type "QList::rvalue_ref": Cannot find type entry for "QList::rvalue_ref".
+ - void QList::prepend(QList::parameter_type): unmatched type 'QList::parameter_type' in parameter #1 "t": Unable to translate type "QList::parameter_type": Cannot find type entry for "QList::parameter_type".
+ - void QList::prepend(QList::rvalue_ref): unmatched type 'QList::rvalue_ref' in parameter #1 "t": Unable to translate type "QList::rvalue_ref": Cannot find type entry for "QList::rvalue_ref".
+ - void QList::push_back(QList::parameter_type): unmatched type 'QList::parameter_type' in parameter #1 "t": Unable to translate type "QList::parameter_type": Cannot find type entry for "QList::parameter_type".
+ - void QList::push_back(QList::rvalue_ref): unmatched type 'QList::rvalue_ref' in parameter #1 "t": Unable to translate type "QList::rvalue_ref": Cannot find type entry for "QList::rvalue_ref".
+ - void QList::push_front(QList::parameter_type): unmatched type 'QList::parameter_type' in parameter #1 "t": Unable to translate type "QList::parameter_type": Cannot find type entry for "QList::parameter_type".
+ - void QList::push_front(QList::rvalue_ref): unmatched type 'QList::rvalue_ref' in parameter #1 "t": Unable to translate type "QList::rvalue_ref": Cannot find type entry for "QList::rvalue_ref".
+ - void QList::replace(qsizetype,QList::parameter_type): unmatched type 'QList::parameter_type' in parameter #2 "t": Unable to translate type "QList::parameter_type": Cannot find type entry for "QList::parameter_type".
+ - void QList::replace(qsizetype,QList::rvalue_ref): unmatched type 'QList::rvalue_ref' in parameter #2 "t": Unable to translate type "QList::rvalue_ref": Cannot find type entry for "QList::rvalue_ref".
+ - void QList::resize(qsizetype,QList::parameter_type): unmatched type 'QList::parameter_type' in parameter #2 "c": Unable to translate type "QList::parameter_type": Cannot find type entry for "QList::parameter_type".
+ - void QMetaType::QMetaType(const QtPrivate::QMetaTypeInterface*): unmatched type 'const QtPrivate::QMetaTypeInterface*' in parameter #1 "d": Unable to translate type "const QtPrivate::QMetaTypeInterface*": Cannot find type entry for "QtPrivate::QMetaTypeInterface".
+ - void QMetaType::registerNormalizedTypedef(const ::QByteArray&,QMetaType): unmatched type 'const ::QByteArray&' in parameter #1 "normalizedTypeName": Unable to translate type "const ::QByteArray&": Cannot find type entry for "::QByteArray".
+ - void QMultiMap::QMultiMap<Key, T>(const std::multimap<Key, T>&): unmatched type 'const std::multimap<Key, T>&' in parameter #1 "other": Unable to translate type "const std::multimap<Key, T>&": Cannot find type entry for "std::multimap".
+ - void QMultiMap::QMultiMap<Key, T>(std::multimap<Key, T>&&): unmatched type 'std::multimap<Key, T>&&' in parameter #1 "other": Unable to translate type "std::multimap<Key, T>&&": Cannot find type entry for "std::multimap".
+ - void QSizePolicy::QSizePolicy(QSizePolicy::Bits): unmatched type 'QSizePolicy::Bits' in parameter #1 "b": Unable to translate type "QSizePolicy::Bits": Cannot find type entry for "QSizePolicy::Bits".
+ - void QStringConverter::QStringConverter(const QStringConverter::Interface*): unmatched type 'const QStringConverter::Interface*' in parameter #1 "i": Unable to translate type "const QStringConverter::Interface*": Cannot find type entry for "QStringConverter::Interface".
+************************************************************************
+
+************************************************************************
+Unmatched return type
+ - QBindable<QString> QObject::bindableObjectName()
+ - QBindingStorage* QObject::bindingStorage()
+ - QByteArray::const_reverse_iterator QByteArray::crbegin()
+ - QByteArray::const_reverse_iterator QByteArray::crend()
+ - QByteArray::const_reverse_iterator QByteArray::rbegin()
+ - QByteArray::const_reverse_iterator QByteArray::rend()
+ - QByteArray::reverse_iterator QByteArray::rbegin()
+ - QByteArray::reverse_iterator QByteArray::rend()
+ - QDebug QAction::operator<<(QDebug,const QAction*)
+ - QDebug QBrush::operator<<(QDebug,const QBrush&)
+ - QDebug QColor::operator<<(QDebug,const QColor&)
+ - QDebug QCursor::operator<<(QDebug,const QCursor&)
+ - QDebug QDate::operator<<(QDebug,QDate)
+ - QDebug QDateTime::operator<<(QDebug,const QDateTime&)
+ - QDebug QFileInfo::operator<<(QDebug,const QFileInfo&)
+ - QDebug QFont::operator<<(QDebug,const QFont&)
+ - QDebug QIcon::operator<<(QDebug,const QIcon&)
+ - QDebug QImage::operator<<(QDebug,const QImage&)
+ - QDebug QKeyCombination::operator<<(QDebug,QKeyCombination)
+ - QDebug QKeySequence::operator<<(QDebug,const QKeySequence&)
+ - QDebug QLine::operator<<(QDebug,const QLine&)
+ - QDebug QLineF::operator<<(QDebug,const QLineF&)
+ - QDebug QLocale::operator<<(QDebug,const QLocale&)
+ - QDebug QMargins::operator<<(QDebug,const QMargins&)
+ - QDebug QMarginsF::operator<<(QDebug,const QMarginsF&)
+ - QDebug QObject::operator<<(QDebug,const QObject*)
+ - QDebug QPalette::operator<<(QDebug,const QPalette&)
+ - QDebug QPixmap::operator<<(QDebug,const QPixmap&)
+ - QDebug QPoint::operator<<(QDebug,const QPoint&)
+ - QDebug QPointF::operator<<(QDebug,const QPointF&)
+ - QDebug QPolygon::operator<<(QDebug,const QPolygon&)
+ - QDebug QPolygonF::operator<<(QDebug,const QPolygonF&)
+ - QDebug QRect::operator<<(QDebug,const QRect&)
+ - QDebug QRectF::operator<<(QDebug,const QRectF&)
+ - QDebug QRegion::operator<<(QDebug,const QRegion&)
+ - QDebug QSize::operator<<(QDebug,const QSize&)
+ - QDebug QSizeF::operator<<(QDebug,const QSizeF&)
+ - QDebug QSizePolicy::operator<<(QDebug,const QSizePolicy&)
+ - QDebug QTime::operator<<(QDebug,QTime)
+ - QDebug QTransform::operator<<(QDebug,const QTransform&)
+ - QDebug QWidget::operator<<(QDebug,const QWidget*)
+ - QFile::Permissions QFileInfo::permissions()
+ - QHash::const_iterator QHash::begin()
+ - QHash::const_iterator QHash::cbegin()
+ - QHash::const_iterator QHash::cend()
+ - QHash::const_iterator QHash::constBegin()
+ - QHash::const_iterator QHash::constEnd()
+ - QHash::const_iterator QHash::constFind(const Key&)
+ - QHash::const_iterator QHash::end()
+ - QHash::const_iterator QHash::find(const Key&)
+ - QHash::const_key_value_iterator QHash::constKeyValueBegin()
+ - QHash::const_key_value_iterator QHash::constKeyValueEnd()
+ - QHash::const_key_value_iterator QHash::keyValueBegin()
+ - QHash::const_key_value_iterator QHash::keyValueEnd()
+ - QHash::iterator QHash::begin()
+ - QHash::iterator QHash::end()
+ - QHash::iterator QHash::erase(QHash::const_iterator)
+ - QHash::iterator QHash::find(const Key&)
+ - QHash::iterator QHash::insert(const Key&,const T&)
+ - QHash::key_iterator QHash::keyBegin()
+ - QHash::key_iterator QHash::keyEnd()
+ - QHash::key_value_iterator QHash::keyValueBegin()
+ - QHash::key_value_iterator QHash::keyValueEnd()
+ - QList::const_iterator QList::begin()
+ - QList::const_iterator QList::cbegin()
+ - QList::const_iterator QList::cend()
+ - QList::const_iterator QList::constBegin()
+ - QList::const_iterator QList::constEnd()
+ - QList::const_iterator QList::end()
+ - QList::const_reverse_iterator QList::crbegin()
+ - QList::const_reverse_iterator QList::crend()
+ - QList::const_reverse_iterator QList::rbegin()
+ - QList::const_reverse_iterator QList::rend()
+ - QList::iterator QList::begin()
+ - QList::iterator QList::end()
+ - QList::iterator QList::erase(QList::const_iterator)
+ - QList::iterator QList::erase(QList::const_iterator,QList::const_iterator)
+ - QList::iterator QList::insert(QList::const_iterator,QList::parameter_type)
+ - QList::iterator QList::insert(QList::const_iterator,QList::rvalue_ref)
+ - QList::iterator QList::insert(QList::const_iterator,qsizetype,QList::parameter_type)
+ - QList::iterator QList::insert(qsizetype,QList::parameter_type)
+ - QList::iterator QList::insert(qsizetype,QList::rvalue_ref)
+ - QList::iterator QList::insert(qsizetype,qsizetype,QList::parameter_type)
+ - QList::reverse_iterator QList::rbegin()
+ - QList::reverse_iterator QList::rend()
+ - QList::value_type QList::takeFirst()
+ - QList::value_type QList::takeLast()
+ - QMap::const_iterator QMap::begin()
+ - QMap::const_iterator QMap::cbegin()
+ - QMap::const_iterator QMap::cend()
+ - QMap::const_iterator QMap::constBegin()
+ - QMap::const_iterator QMap::constEnd()
+ - QMap::const_iterator QMap::constFind(const Key&)
+ - QMap::const_iterator QMap::end()
+ - QMap::const_iterator QMap::find(const Key&)
+ - QMap::const_iterator QMap::lowerBound(const Key&)
+ - QMap::const_iterator QMap::upperBound(const Key&)
+ - QMap::const_key_value_iterator QMap::constKeyValueBegin()
+ - QMap::const_key_value_iterator QMap::constKeyValueEnd()
+ - QMap::const_key_value_iterator QMap::keyValueBegin()
+ - QMap::const_key_value_iterator QMap::keyValueEnd()
+ - QMap::iterator QMap::begin()
+ - QMap::iterator QMap::end()
+ - QMap::iterator QMap::erase(QMap::const_iterator)
+ - QMap::iterator QMap::erase(QMap::const_iterator,QMap::const_iterator)
+ - QMap::iterator QMap::find(const Key&)
+ - QMap::iterator QMap::insert(QMap::const_iterator,const Key&,const T&)
+ - QMap::iterator QMap::insert(const Key&,const T&)
+ - QMap::iterator QMap::lowerBound(const Key&)
+ - QMap::iterator QMap::upperBound(const Key&)
+ - QMap::key_iterator QMap::keyBegin()
+ - QMap::key_iterator QMap::keyEnd()
+ - QMap::key_value_iterator QMap::keyValueBegin()
+ - QMap::key_value_iterator QMap::keyValueEnd()
+ - QMessageLogContext& QMessageLogContext::copyContextFrom(const QMessageLogContext&)
+ - QMetaObject::Connection::RestrictedBool QMetaObject::Connection::operator void *QMetaObject::Connection::*()
+ - QMultiHash::const_iterator QMultiHash::begin()
+ - QMultiHash::const_iterator QMultiHash::cbegin()
+ - QMultiHash::const_iterator QMultiHash::cend()
+ - QMultiHash::const_iterator QMultiHash::constBegin()
+ - QMultiHash::const_iterator QMultiHash::constEnd()
+ - QMultiHash::const_iterator QMultiHash::constFind(const Key&)
+ - QMultiHash::const_iterator QMultiHash::constFind(const Key&,const T&)
+ - QMultiHash::const_iterator QMultiHash::end()
+ - QMultiHash::const_iterator QMultiHash::find(const Key&)
+ - QMultiHash::const_iterator QMultiHash::find(const Key&,const T&)
+ - QMultiHash::const_key_value_iterator QMultiHash::constKeyValueBegin()
+ - QMultiHash::const_key_value_iterator QMultiHash::constKeyValueEnd()
+ - QMultiHash::const_key_value_iterator QMultiHash::keyValueBegin()
+ - QMultiHash::const_key_value_iterator QMultiHash::keyValueEnd()
+ - QMultiHash::iterator QMultiHash::begin()
+ - QMultiHash::iterator QMultiHash::end()
+ - QMultiHash::iterator QMultiHash::erase(QMultiHash::const_iterator)
+ - QMultiHash::iterator QMultiHash::find(const Key&)
+ - QMultiHash::iterator QMultiHash::find(const Key&,const T&)
+ - QMultiHash::iterator QMultiHash::insert(const Key&,const T&)
+ - QMultiHash::iterator QMultiHash::replace(const Key&,const T&)
+ - QMultiHash::key_iterator QMultiHash::keyBegin()
+ - QMultiHash::key_iterator QMultiHash::keyEnd()
+ - QMultiHash::key_value_iterator QMultiHash::keyValueBegin()
+ - QMultiHash::key_value_iterator QMultiHash::keyValueEnd()
+ - QMultiMap::const_iterator QMultiMap::begin()
+ - QMultiMap::const_iterator QMultiMap::cbegin()
+ - QMultiMap::const_iterator QMultiMap::cend()
+ - QMultiMap::const_iterator QMultiMap::constBegin()
+ - QMultiMap::const_iterator QMultiMap::constEnd()
+ - QMultiMap::const_iterator QMultiMap::constFind(const Key&)
+ - QMultiMap::const_iterator QMultiMap::constFind(const Key&,const T&)
+ - QMultiMap::const_iterator QMultiMap::end()
+ - QMultiMap::const_iterator QMultiMap::find(const Key&)
+ - QMultiMap::const_iterator QMultiMap::find(const Key&,const T&)
+ - QMultiMap::const_iterator QMultiMap::lowerBound(const Key&)
+ - QMultiMap::const_iterator QMultiMap::upperBound(const Key&)
+ - QMultiMap::const_key_value_iterator QMultiMap::constKeyValueBegin()
+ - QMultiMap::const_key_value_iterator QMultiMap::constKeyValueEnd()
+ - QMultiMap::const_key_value_iterator QMultiMap::keyValueBegin()
+ - QMultiMap::const_key_value_iterator QMultiMap::keyValueEnd()
+ - QMultiMap::iterator QMultiMap::begin()
+ - QMultiMap::iterator QMultiMap::end()
+ - QMultiMap::iterator QMultiMap::erase(QMultiMap::const_iterator)
+ - QMultiMap::iterator QMultiMap::erase(QMultiMap::const_iterator,QMultiMap::const_iterator)
+ - QMultiMap::iterator QMultiMap::find(const Key&)
+ - QMultiMap::iterator QMultiMap::find(const Key&,const T&)
+ - QMultiMap::iterator QMultiMap::insert(QMultiMap::const_iterator,const Key&,const T&)
+ - QMultiMap::iterator QMultiMap::insert(const Key&,const T&)
+ - QMultiMap::iterator QMultiMap::insertMulti(QMultiMap::const_iterator,const Key&,const T&)
+ - QMultiMap::iterator QMultiMap::insertMulti(const Key&,const T&)
+ - QMultiMap::iterator QMultiMap::lowerBound(const Key&)
+ - QMultiMap::iterator QMultiMap::replace(const Key&,const T&)
+ - QMultiMap::iterator QMultiMap::upperBound(const Key&)
+ - QMultiMap::key_iterator QMultiMap::keyBegin()
+ - QMultiMap::key_iterator QMultiMap::keyEnd()
+ - QMultiMap::key_value_iterator QMultiMap::keyValueBegin()
+ - QMultiMap::key_value_iterator QMultiMap::keyValueEnd()
+ - QPair<QHash::const_iterator, QHash::const_iterator> QHash::equal_range(const Key&)
+ - QPair<QHash::iterator, QHash::iterator> QHash::equal_range(const Key&)
+ - QPair<QMap::const_iterator, QMap::const_iterator> QMap::equal_range(const Key&)
+ - QPair<QMap::iterator, QMap::iterator> QMap::equal_range(const Key&)
+ - QPair<QMultiHash::const_iterator, QMultiHash::const_iterator> QMultiHash::equal_range(const Key&)
+ - QPair<QMultiHash::iterator, QMultiHash::iterator> QMultiHash::equal_range(const Key&)
+ - QPair<QMultiMap::const_iterator, QMultiMap::const_iterator> QMultiMap::equal_range(const Key&)
+ - QPair<QMultiMap::iterator, QMultiMap::iterator> QMultiMap::equal_range(const Key&)
+ - QPartialOrdering QMetaType::compare(const void*,const void*)
+ - QPlatformPixmap* QPixmap::handle()
+ - QRegion::const_reverse_iterator QRegion::crbegin()
+ - QRegion::const_reverse_iterator QRegion::crend()
+ - QRegion::const_reverse_iterator QRegion::rbegin()
+ - QRegion::const_reverse_iterator QRegion::rend()
+ - QSet::const_iterator QSet::begin()
+ - QSet::const_iterator QSet::cbegin()
+ - QSet::const_iterator QSet::cend()
+ - QSet::const_iterator QSet::constBegin()
+ - QSet::const_iterator QSet::constEnd()
+ - QSet::const_iterator QSet::constFind(const T&)
+ - QSet::const_iterator QSet::end()
+ - QSet::const_iterator QSet::find(const T&)
+ - QSet::iterator QSet::begin()
+ - QSet::iterator QSet::end()
+ - QSet::iterator QSet::erase(QSet::const_iterator)
+ - QSet::iterator QSet::find(const T&)
+ - QSet::iterator QSet::insert(QSet::const_iterator,const T&)
+ - QSet::iterator QSet::insert(T&&)
+ - QSet::iterator QSet::insert(const T&)
+ - QTransform::Affine QTransform::asAffineMatrix()
+ - auto QHash::asKeyValueRange()
+ - auto QMap::asKeyValueRange()
+ - auto QMultiHash::asKeyValueRange()
+ - auto QMultiMap::asKeyValueRange()
+ - const QBindingStorage* QObject::bindingStorage()
+ - const QtPrivate::QMetaTypeInterface* QMetaType::iface()
+ - std::chrono::milliseconds QDateTime::operator-(const QDateTime&,const QDateTime&)
+ - std::filesystem::path QFile::filesystemFileName()
+ - std::filesystem::path QFile::filesystemSymLinkTarget()
+ - std::filesystem::path QFileInfo::filesystemAbsoluteFilePath()
+ - std::filesystem::path QFileInfo::filesystemAbsolutePath()
+ - std::filesystem::path QFileInfo::filesystemCanonicalFilePath()
+ - std::filesystem::path QFileInfo::filesystemCanonicalPath()
+ - std::filesystem::path QFileInfo::filesystemFilePath()
+ - std::filesystem::path QFileInfo::filesystemJunctionTarget()
+ - std::filesystem::path QFileInfo::filesystemPath()
+ - std::filesystem::path QFileInfo::filesystemSymLinkTarget()
+ - std::multimap<Key, T> QMultiMap::toStdMap()
+ - std::multimap<Key, T> QMultiMap::toStdMultiMap()
+ - std::optional<QStringConverter::Encoding> QStringConverter::encodingForData(QByteArrayView,char16_t)
+ - std::optional<QStringConverter::Encoding> QStringConverter::encodingForHtml(QByteArrayView)
+ - std::optional<QStringConverter::Encoding> QStringConverter::encodingForName(const char*)
+************************************************************************
+
+************************************************************************
+Incompatible API
+************************************************************************
+
+************************************************************************
+Deprecated
+************************************************************************
+
